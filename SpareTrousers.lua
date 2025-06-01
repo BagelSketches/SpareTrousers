@@ -1,5 +1,5 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Stoner
+--- MOD_NAME: Spare Trousers
 --- MOD_ID: FTV
 --- MOD_AUTHOR: [Jaffa123 & BagelToons]
 --- MOD_DESCRIPTION: Adds a few more challenge decks to Balatro.
