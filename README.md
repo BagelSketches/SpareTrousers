@@ -1,1 +1,1 @@
-# SpareTrousers
+# Spare Trousers
