@@ -1,1 +1,1 @@
-"# SpareTrousers" 
+# SpareTrousers
