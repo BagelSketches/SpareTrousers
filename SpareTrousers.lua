@@ -13,8 +13,9 @@ function SMODS.INIT.FTV ()
     local challenges = G.CHALLENGES
 	G.localization.misc.challenge_names["c_stoner_1"] = "The Lungs Of A Stoner"
 	G.localization.misc.challenge_names["c_apocalypse_1"] = "The Apocalypse"
+    G.localization.misc.challenge_names["c_perfectionist_1"] = "Perfectionist"
         table.insert(G.CHALLENGES,#G.CHALLENGES+1,    {
-        name = 'Stoner',
+        name = 'The Apocalypse',
         id = 'c_apocalypse_1',
         rules = {
             custom = {},
@@ -133,9 +134,43 @@ function SMODS.INIT.FTV ()
     } 
 )
 
+    table.insert(G.CHALLENGES,#G.CHALLENGES+1,    { 
+        name = 'Perfectionist',
+        id = 'c_perfectionist_1',
+        rules = {
+            custom = {},
+            modifiers = {
+                {id = 'dollars', value = 4},
+                {id = 'discards', value = 8},
+                {id = 'hands', value = 1},
+                {id = 'reroll_cost', value = 5},
+                {id = 'joker_slots', value = 5},
+                {id = 'consumable_slots', value = 2},
+                {id = 'hand_size', value = 8},
+            }
+        },
+        jokers = {
+
+        },
+        consumeables = {},
+        vouchers = {},
+        deck = {
+            type = 'Challenge Deck'
+        },
+        restrictions = {
+            banned_cards = {
+                {id = 'v_grabber'},
+                {id = 'v_nacho_tong'},
+                {id = 'j_burglar'},
+            },
+            banned_tags = {
+            },
+            banned_other = {
+            }
+        }
+    } )
 
 end
 
 ----------------------------------------------
 ------------MOD CODE END----------------------
--- i love potatoes
