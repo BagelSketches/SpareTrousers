@@ -1,6 +1,6 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Spare Trousers
---- MOD_ID: FTV
+--- MOD_ID: SpareTrousers
 --- MOD_AUTHOR: [Jaffa123 & BagelToons]
 --- MOD_DESCRIPTION: Adds a few more challenge decks to Balatro.
 
@@ -8,7 +8,7 @@
 ------------MOD CODE -------------------------
 
 
-function SMODS.INIT.FTV ()
+function SMODS.INIT.SpareTrousers ()
 
     local challenges = G.CHALLENGES
 	G.localization.misc.challenge_names["c_stoner_1"] = "The Lungs Of A Stoner"
@@ -155,7 +155,7 @@ function SMODS.INIT.FTV ()
         consumeables = {},
         vouchers = {},
         deck = {
-            type = 'Challenge Deck'
+            type = 'Plasma Deck'
         },
         restrictions = {
             banned_cards = {
